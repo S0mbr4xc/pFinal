@@ -1,0 +1,55 @@
+/* Estilo General del Cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #E0E0E0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilos del Título */
+h1 {
+  color: #BB86FC;
+}
+
+/* Estilos del Formulario */
+form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Estilos para los Inputs */
+input[type="file"] {
+  padding: 10px;
+  background: #2C2C2C;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Estilos para el Botón */
+button {
+  background-color: #6200EE;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3700B3;
+}
+
+/* Estilos para el Enlace de Vuelta a Inicio */
+a {
+  color: #03DAC6;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a:hover {
+  color: #00B3A6;
+}

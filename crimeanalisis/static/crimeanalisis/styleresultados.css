@@ -1,0 +1,45 @@
+/* Estilo General del Cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #E0E0E0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Estilos del Título */
+h1 {
+  color: #BB86FC;
+}
+
+/* Estilos del Párrafo */
+p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* Estilos de la Lista */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #333;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+/* Estilos para los Enlaces */
+a {
+  color: #03DAC6;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00B3A6;
+}

@@ -3,21 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'crimeanalisis/styleresultados.css' %}">
     <title>Historial - CrimeAnalysis</title>
 </head>
 <body>
     <h1>Historial de archivos revisados</h1>
-    <p>Esta aplicación te ayuda a analizar imágenes para detectar objetos.</p>
-    <a href="{% url 'upload' %}">Analizar una nueva imagen</a>
+
+    <div class="busquedas">
+        
+    </div>
+
+    <button><a href="{% url 'upload' %}">Analizar una nueva imagen</a></button>
 </body>
-<div class="img-hist-section"> #upload box
-    <div class="img-hist-box-space">
-        <div class="img-upload-before"></div>
-        <div class="img-upload-after"></div>
-    </div>
-    <div class="img-hist-details">
-        <p class="title-text">Objeto detectado (Ejemplo)</p>
-        <p class="descrip-text">Make America great again</p>
-    </div>
-</div>
 </html>
