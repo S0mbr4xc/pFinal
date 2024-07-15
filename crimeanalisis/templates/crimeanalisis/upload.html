@@ -8,12 +8,15 @@
     <title>Subir Imagen - CrimeAnalysis</title>
 </head>
 <body>
+
     <h1>Subir una imagen para análisis</h1>
-    <form action="{% url 'resultados' %}" method="post" enctype="multipart/form-data">
-        {% csrf_token %}
-        <input type="file" name="image" required>
-        <button type="submit">Analizar Imagen</button>
-    </form>
+    <div class="submit-space">
+        <form action="{% url 'resultados' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <input type="file" name="image" required>
+            <button type="submit">Analizar Imagen</button>
+        </form>
+    </div>
     <a href="{% url 'home' %}">Volver a inicio</a>
 </body>
 </html>

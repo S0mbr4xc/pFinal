@@ -11,12 +11,17 @@ body {
 h1 {
   color: #BB86FC;
 }
-
+.submit-space{
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
 /* Estilos del Formulario */
 form {
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
+  width: 100vh;
 }
 
 /* Estilos para los Inputs */
@@ -26,22 +31,25 @@ input[type="file"] {
   border: none;
   border-radius: 5px;
   color: white;
+  margin-right: 10%;
 }
 
 /* Estilos para el Botón */
 button {
-  background-color: #6200EE;
+  background-color: #6d6379;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 0.3s ease; /* Corrected transition property */
 }
 
 button:hover {
   background-color: #3700B3;
 }
+
 
 /* Estilos para el Enlace de Vuelta a Inicio */
 a {
