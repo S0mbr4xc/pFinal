@@ -16,3 +16,5 @@ def resultados(request):
     objects = [{'name': 'Objeto1', 'x': 50, 'y': 100}]
     return render(request, 'crimeanalisis/resultados.html', {'objects': objects})
 
+def historial(request):
+    return render(request, 'crimeanalisis/historial.html')

@@ -1,0 +1,69 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* White text */
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background-color: #1f1f1f; /* Slightly lighter dark background */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Stronger shadow for depth */
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.logo {
+  background-image: url('logo.png');
+  display: inline-block;
+  width: 50px; /* Adjust based on actual logo size */
+  height: 50px; /* Adjust based on actual logo size */
+  background-size: cover;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #007bff; /* Blue background for general buttons */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.capture-button {
+  background-color: #28a745; /* Green background for capture button */
+}
+
+.capture-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.history-button {
+  background-color: #17a2b8; /* Teal background for history button */
+}
+
+.history-button:hover {
+  background-color: #138496; /* Darker teal on hover */
+}

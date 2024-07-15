@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - CrimeAnalysis</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Crime Analisis</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'crimeanalisis/styles.css' %}">
 </head>
 <body>
-    <h1>Bienvenido a CrimeAnalysis</h1>
-    <p>Esta aplicación te ayuda a analizar imágenes para detectar objetos.</p>
-    <a href="{% url 'upload' %}">Analizar una nueva imagen</a>
+  <div class="container">
+      <h1>CRIMEANALISIS<span class="logo"></span></h1>
+      <a href="{% url 'upload' %}" class="button capture-button"><span class="icon">📷</span>Capturar Imagen</a>
+      <a href="{% url 'historial' %}" class="button history-button"><span class="icon">🕒</span>Historial</a>
+  </div>
 </body>
-</html>
